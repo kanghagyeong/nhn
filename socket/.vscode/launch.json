@@ -1,0 +1,107 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Exam11",
+            "request": "launch",
+            "mainClass": "com.nhnacademy.Exam11",
+            "projectName": "socket"
+        },
+        {
+            "type": "java",
+            "name": "Exam05",
+            "request": "launch",
+            "mainClass": "com.nhnacademy.Exam05",
+            "projectName": "socket"
+        },
+        {
+            "type": "java",
+            "name": "Exam10",
+            "request": "launch",
+            "mainClass": "com.nhnacademy.Exam10",
+            "projectName": "socket",
+            "args": [
+                "snc",
+                "localhost",
+                "1234"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Exam09",
+            "request": "launch",
+            "mainClass": "com.nhnacademy.Exam09",
+            "projectName": "socket"
+        },
+        {
+            "type": "java",
+            "name": "Exam08",
+            "request": "launch",
+            "mainClass": "com.nhnacademy.Exam08",
+            "projectName": "socket"
+        },
+        {
+            "type": "java",
+            "name": "Exam04",
+            "request": "launch",
+            "mainClass": "com.nhnacademy.Exam04",
+            "projectName": "socket"
+        },
+        {
+            "type": "java",
+            "name": "Exam07",
+            "request": "launch",
+            "mainClass": "com.nhnacademy.Exam07",
+            "projectName": "socket"
+        },
+        {
+            "type": "java",
+            "name": "Exam06",
+            "request": "launch",
+            "mainClass": "com.nhnacademy.Exam06",
+            "projectName": "socket"
+        },
+        {
+            "type": "java",
+            "name": "Exam03",
+            "request": "launch",
+            "mainClass": "com.nhnacademy.Exam03",
+            "projectName": "socket"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Exam01",
+            "request": "launch",
+            "mainClass": "com.nhnacademy.Exam01",
+            "projectName": "socket"
+        },
+        {
+            "type": "java",
+            "name": "Exam02",
+            "request": "launch",
+            "mainClass": "com.nhnacademy.Exam02",
+            "projectName": "socket",
+            "args": [
+                "1",
+                "10000"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.nhnacademy.Main",
+            "projectName": "socket"
+        }
+    ]
+}

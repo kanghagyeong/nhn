@@ -14,7 +14,8 @@ public class Exam1 {
         object.put("name", "nhn");
         object.put("name", "NHN"); // 2번째 줄은 값 변경 ?
 
-        System.out.println(object);
+        System.out.println(object.toString(3));
+        System.out.println(object.toString());
     }
     
 }
