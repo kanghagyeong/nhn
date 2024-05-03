@@ -1,0 +1,49 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MapExample",
+            "request": "launch",
+            "mainClass": "MapExample",
+            "projectName": "thread_3da31930"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Quiz02",
+            "request": "launch",
+            "mainClass": "Quiz02",
+            "projectName": "thread_3da31930"
+        },
+        {
+            "type": "java",
+            "name": "Quiz03",
+            "request": "launch",
+            "mainClass": "Quiz03",
+            "projectName": "thread_3da31930"
+        },
+        {
+            "type": "java",
+            "name": "Quiz04",
+            "request": "launch",
+            "mainClass": "Quiz04",
+            "projectName": "thread_3da31930"
+        },
+        {
+            "type": "java",
+            "name": "Quiz05",
+            "request": "launch",
+            "mainClass": "Quiz05",
+            "projectName": "thread_3da31930"
+        }
+    ]
+}
