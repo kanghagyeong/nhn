@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Student View</title>
+</head>
+<body>
+<h1>학생 정보</h1>
+<div th:if="${student != null}">
+    <p>아이디: <span th:text="${student.id}"></span></p>
+    <p>비밀번호: <span th:text="${student.password}"></span></p>
+    <p>이름: <span th:text="${student.name}"></span></p>
+    <p>이메일: <span th:text="${student.email}"></span></p>
+    <p>성적: <span th:text="${student.score}"></span></p>
+    <p>평가: <span th:text="${student.comment}"></span></p>
+    <a th:href="@{/student/{id}/modify(id=${student.id})}">수정</a>
+</div>
+<div th:unless="${student != null}">
+    <p>학생 정보를 찾을 수 없습니다.</p>
+</div>
+</body>
+</html>

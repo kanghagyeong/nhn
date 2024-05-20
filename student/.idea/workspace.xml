@@ -9,7 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07f79dff-2780-49d9-bcbc-fe796047420b" name="Changes" comment="commit" />
+    <list default="true" id="07f79dff-2780-49d9-bcbc-fe796047420b" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/../javaprogramming/java-programming" beforeDir="false" afterPath="$PROJECT_DIR$/../javaprogramming/java-programming" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-exercise" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc-exercise" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +66,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Tomcat Server.Tomcat 9.0.88.executor": "Run",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/ganghagyeong/Desktop/nhn/student",
     "node.js.detected.package.eslint": "true",
@@ -181,7 +185,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c37708d2-34d1-490f-b310-4f9127cfd020" name="Changes" comment="" />
+      <changelist id="07f79dff-2780-49d9-bcbc-fe796047420b" name="Changes" comment="commit" />
       <created>1714460602806</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -195,6 +199,7 @@
       <workItem from="1714606801352" duration="13573000" />
       <workItem from="1714634163064" duration="1681000" />
       <workItem from="1714697104319" duration="3651000" />
+      <workItem from="1714892951784" duration="73000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -220,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714626515299</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit">
+      <option name="closed" value="true" />
+      <created>1714892996691</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714892996691</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
