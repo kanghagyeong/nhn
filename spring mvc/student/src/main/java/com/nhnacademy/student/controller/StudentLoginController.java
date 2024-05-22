@@ -22,9 +22,8 @@ public class StudentLoginController {
     }
 
     @GetMapping("/login")
-    public String login(@CookieValue(value = "SESSION", required = false) String session, Model model) {
+    public String login(@CookieValue(value = "SESSION", required = false) String session) {
         if (StringUtils.hasText(session)) {
-            model.addAttribute("id", session);
             return "redirect:/student/" + session;
         } else {
             return "loginForm";
@@ -44,9 +43,6 @@ public class StudentLoginController {
             Cookie cookie = new Cookie("SESSION", id);
             response.addCookie(cookie);
 
-            Student student = studentRepository.getStudent(id);
-
-            modelMap.addAttribute("student", student);
             return  "redirect:/student/" + id;
         } else {
             return "redirect:/student/login";
