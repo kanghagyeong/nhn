@@ -32,6 +32,9 @@ public class StudentRepositoryImpl implements StudentRepository{
 
     @Override
     public Student getStudent(String id) {
+        if (!exists(id)) {
+            throw new StudentNotFoundException(id);
+        }
         return students.get(id);
     }
 
@@ -43,18 +46,19 @@ public class StudentRepositoryImpl implements StudentRepository{
     }
 
     @Override
-    public void updateStudent(Student student, String id, String password, String name, String email, int score, String comment) {
-        if (!students.containsKey(student.getId())) {
-            throw new StudentNotFoundException("Student with id '" + student.getId() + "' not found");
+    public void updateStudent(String id, String password, String name, String email, int score, String comment) {
+        if (!exists(id)) {
+            throw new StudentNotFoundException("Student with id '" + id + "' not found");
         }
-
-        students.put(student.getId(), student);
+        Student student = getStudent(id);
 
         student.setPassword(password);
         student.setName(name);
         student.setEmail(email);
         student.setScore(score);
         student.setComment(comment);
+
+        students.put(student.getId(), student);
     }
 
 

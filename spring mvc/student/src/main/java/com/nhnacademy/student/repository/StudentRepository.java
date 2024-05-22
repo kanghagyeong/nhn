@@ -12,6 +12,6 @@ public interface StudentRepository {
 
     boolean matches(String id, String password);
 
-    void updateStudent(Student student, String id, String password, String name, String email, int score, String comment);
+    void updateStudent(String id, String password, String name, String email, int score, String comment);
 
 }
